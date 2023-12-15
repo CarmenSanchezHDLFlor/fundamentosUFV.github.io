@@ -41,23 +41,18 @@ pero al colocarlo como los requisitos marcaban, se me modificó todo el CSS.
 
 # CONCLUSIONES DE DICHA PRÁCTICA 
 
-La principal conclusión derivada de la experiencia en la creación de esta página web es la comprensión más profunda y práctica de los conceptos fundamentales
-relacionados con el diseño y desarrollo web. Durante el proceso, enfrenté varios desafíos, pero estos obstáculos se tradujeron en valiosas lecciones. 
-
-La práctica permitió una mejora sustancial en mis habilidades técnicas. La familiaridad con herramientas y tecnologías específicas, como 
+Durante este proceso, enfrenté una serie de desafíos, pero estos obstáculos se convirtieron en lecciones valiosas.
+La práctica ha mejorado significativamente mis habilidades técnicas. La familiaridad con herramientas y tecnologías específicas, como
 Git y Visual Studio Code, se fortaleció significativamente. Esto no solo facilitó el desarrollo de la página web actual, sino que también sentó las bases 
 para abordar proyectos más complejos en el futuro.
 
-En definitiva, me ha gustado realizar esta práctica porque he podido aprender más sobre los lenguajes dados en clase, HTML y CSS. 
-Los desafíos encontrados durante el proceso no solo fueron superados, sino que se convirtieron en valiosas lecciones que contribuyeron 
-a mi crecimiento como diseñador y desarrollador web. La práctica no solo resultó en una mejora sustancial de mis habilidades técnicas,
-sino que también consolidó mi familiaridad con herramientas esenciales como Git y Visual Studio Code. Esta adquisición de conocimientos 
-no solo facilitó la realización exitosa de la página web actual, sino que también sentó las bases sólidas para enfrentar proyectos más complejos en el futuro.
+En definitiva, me ha gustado realizar esta práctica porque he podido aprender más sobre los lenguajes dados en clase, HTML y CSS. Los desafíos encontrados 
+durante el proceso no solo fueron superados, sino que se convirtieron en valiosas lecciones que contribuyeron a mi crecimiento como diseñador y desarrollador web. 
+La práctica no solo resultó en una mejora sustancial de mis habilidades técnicas, sino que también consolidó mi familiaridad con herramientas esenciales como Git y 
+Visual Studio Code. Esta adquisición de conocimientos no solo facilitó la realización exitosa de la página web actual, sino que también sentó las bases sólidas
+para enfrentar proyectos más complejos en el futuro.
 
-En última instancia, esta experiencia me ha brindado una comprensión más profunda y práctica de los conceptos fundamentales de diseño y desarrollo web.
-A través de la aplicación práctica de los lenguajes enseñados en clase, HTML y CSS, he fortalecido mi base de conocimientos y estoy emocionado por seguir 
-avanzando en la exploración de nuevas posibilidades y desafíos en este apasionante campo. Este proyecto no solo fue un ejercicio técnico, sino una oportunidad
-de crecimiento personal y profesional que estoy ansioso por aplicar en futuras empresas y proyectos. 
+Este proyecto no solo fue un ejercicio técnico, sino una oportunidad de crecimiento personal y profesional que espero aplicar a futuros proyectos. 
 
 # ENTORNO 
 
