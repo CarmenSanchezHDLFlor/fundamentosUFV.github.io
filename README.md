@@ -46,8 +46,7 @@ La práctica ha mejorado significativamente mis habilidades técnicas. La famili
 Git y Visual Studio Code, se fortaleció significativamente. Esto no solo facilitó el desarrollo de la página web actual, sino que también sentó las bases 
 para abordar proyectos más complejos en el futuro.
 
-En definitiva, me ha gustado realizar esta práctica porque he podido aprender más sobre los lenguajes dados en clase, HTML y CSS. Los desafíos encontrados 
-durante el proceso no solo fueron superados, sino que se convirtieron en valiosas lecciones que contribuyeron a mi crecimiento como diseñador y desarrollador web. 
+En definitiva, me ha gustado realizar esta práctica porque he podido aprender más sobre los lenguajes dados en clase, HTML y CSS.  
 La práctica no solo resultó en una mejora sustancial de mis habilidades técnicas, sino que también consolidó mi familiaridad con herramientas esenciales como Git y 
 Visual Studio Code. Esta adquisición de conocimientos no solo facilitó la realización exitosa de la página web actual, sino que también sentó las bases sólidas
 para enfrentar proyectos más complejos en el futuro.
