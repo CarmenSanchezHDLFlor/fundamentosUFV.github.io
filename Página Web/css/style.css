@@ -1,0 +1,66 @@
+/* CREADO POR: CARMEN SÁNCHEZ */ 
+
+body {
+  background-color: #f5f5f5c4;
+  margin: 0; 
+}
+   
+header {
+  background-color: white;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+   
+header div {
+  display: flex;
+  align-items: center;
+}
+   
+button {
+  margin: 0 20px;
+  border: none; 
+  background-color: transparent; 
+  cursor: pointer; 
+}
+   
+h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+   
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  white-space: nowrap;
+}
+   
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  margin-top: 160px;
+  padding: 10px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  top: 20;
+  left: 50%;
+  right: 1px;
+  margin-left: 120px;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  width: 90%;
+}
