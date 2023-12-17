@@ -51,8 +51,6 @@ La práctica no solo resultó en una mejora sustancial de mis habilidades técni
 Visual Studio Code. Esta adquisición de conocimientos no solo facilitó la realización exitosa de la página web actual, sino que también sentó las bases sólidas
 para enfrentar proyectos más complejos en el futuro.
 
-Este proyecto no solo fue un ejercicio técnico, sino una oportunidad de crecimiento personal y profesional que espero aplicar a futuros proyectos. 
-
 # ENTORNO 
 
 - Microsoft Surface Pro 6 Consumer Model 1796 i7
