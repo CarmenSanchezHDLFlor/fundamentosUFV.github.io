@@ -1,0 +1,310 @@
+<!-- Creado por: CARMEN SÁNCHEZ  -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunset</title>
+  <link rel="stylesheet" href="../css/style.css">
+  
+  <style>
+    
+    .header h2 {
+      text-align: center;
+      background-color: transparent;
+    }
+
+    /* Menú desplegable */
+    .dropdown {
+      padding: 1em 0;
+      border-bottom: 1px solid transparent;
+      background-color: transparent;
+    }
+  
+    .dropdown a {
+      display: block;
+      padding: 0.5em 0;
+      text-decoration: none;
+      margin-left: 45%;
+      margin-top: 1%;
+    }
+  
+    .dropdown a:hover {
+      background-color: transparent;
+    }
+
+    .tema {
+      display: none;
+    }
+  
+    .dropdown {
+      margin-top: 10px;
+    }
+
+    .dropdown:after {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 1px;
+      margin-top: 50px;
+    }
+
+    /* TEMA 1 */
+    .tema {
+      background-color: white;
+      padding: 1em;
+      margin-bottom: 1em;
+      margin-right: 0px;
+      font-style: italic;
+    }
+
+    .tema .tema-contenido {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .tema .tema-contenido img {
+      width: 550px;
+      max-height: 250px;
+      float: left;
+    }
+
+    .tema .tema-contenido-texto {
+      width: 70%; 
+      text-align: right;
+    }
+
+    /* TEMA 2 */ 
+    .tema {
+      background-color: transparent;
+      padding: 1em;
+      margin-bottom: 1em;
+      margin-right: 0px;
+      font-style: italic;
+    }
+
+    .tema .tema-contenido-imagen,
+    .tema .tema-contenido-imagen img {
+      width: 50%;
+      max-width: 100%;
+      float: left;
+    }
+
+    .tema .tema2-contenido-texto {
+      width: 50%;
+      text-align: right;
+      position: fixed;
+      right: 15px;
+      top: 70%;
+      z-index: 1;
+      transform: translate(-50%, -50%);
+      display: flex;
+      max-width: 50%;
+      justify-content: space-between;
+    }
+
+    .tema .tema-contenido-imagen2, 
+    .tema .tema-contenido-imagen2 img {
+      width: 50%;
+      max-width: 100%;
+      float: right;
+      position: relative;
+      bottom: 25px; 
+    }
+
+    /* TEMA 3 */ 
+    .tema3 {
+      background-color: transparent;
+      padding: 1em;
+      margin-bottom: 1em;
+      margin-right: 0px;
+      font-style: italic;
+    }
+
+    .tema3 .tema3-contenido-imagen,
+    .tema3 .tema3-contenido-imagen img {
+      width: 50%;
+      max-width: 100%;
+      float: right;
+    }
+
+    .tema .tema3-contenido-imagen3 {
+      position: relative;
+      top: 20px;
+      left: 50px;
+      right: 0;
+      width: 50%;
+      max-width: 100%;
+      float: left;
+    }
+
+    .tema .tema3-contenido-texto {
+      text-align: right;
+      position: fixed;
+      right: 15px;
+      top: 70%;
+      z-index: 1;
+      transform: translate(-50%, -50%);
+      display: flex;
+      max-width: 50%;
+      justify-content: space-between;
+    }
+
+    .tema3 .tema3-contenido-imagen2, 
+    .tema3 .tema3-contenido-imagen2 img {
+      width: 20%;
+      max-width: 100%;
+      float: right;
+      position: relative;
+      bottom: 25px; 
+      margin-left: 50px;
+      transform: translateX(-50px);
+    }
+
+    .tema .tema3-contenido-imagen31 {
+      position: relative;
+      width: 20%;
+      max-width: 100%;
+      float: right;
+      bottom: 25px;
+    }
+
+    .texto-masinfo {
+      text-align: center;
+      margin: 10px 2px;
+      font-size: 20px;
+      color: black;
+      background-color: transparent;
+      border-radius: 5px;
+      position: fixed;
+      top: 45%;
+      left: 48%;
+      right: 20%;
+      transform: translate(-50%, -50%);
+      font-style: italic;
+      padding: 6px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <button class="informacion"><a href="./informacion.html">Información</a></button>
+      <button class="temas"><a href="./temas.html">Temas</a></button>
+      <button class="red"><a href="./red.html">Red</a></button>
+      <h1>Sunset</h1>
+      <button class="sobremi"><a href="./sobremi.html">Sobre mí</a></button>
+      <button class="contactos"><a href="./contactos.html">Contactos</a></button>
+      <button class="fundamentos"><a href="./fundamentos.html">FII</a></button>
+    </div>
+  </header>
+  <main>
+  <section class="header part 2">
+    <h2>Contenidos</h2>
+  </section>
+
+  <section class="dropdown">
+    <a href="#" id="enlace_tema1">Primer bloque</a>
+    <a href="#" id="enlace_tema2">Segundo bloque</a>
+    <a href="#" id="enlace_tema3">Tercer bloque</a>
+  </section>
+
+  <section class="tema" id="tema1">
+    <div class="tema-contenido">
+      <img src="C:\Users\carme\OneDrive\Escritorio\UFV\FUNDAMENTOS DE LA INGENIERIA INFORMATICA\PUBLIC\Images\codigos binarios.jpeg" alt="Imagen del primer tema">
+      <div class="tema-contenido-texto">
+      <p>Temario del primer bloque</p>
+      <ul class="temas">
+        <li><span class="numero">Tema 1</span> La ingeniería Informática en la Sociedad.</li>
+        <li><span class="numero">Tema 2</span> Antecedentes y perspectivas históricas.</li>
+        <li><span class="numero">Tema 3</span> Definiciones y conceptos básicos.</li>
+        <li><span class="numero">Tema 4</span> Competencias y conocimientos necesarios para un ingeniero informático.</li>
+        <li><span class="numero">Tema 5</span> Salidas profesionales.</li>
+        <li><span class="numero">Tema 6</span> El sentido de la ética en la formación del ingeniero informático. Códigos deontológicos.</li>
+      </ul>
+      </div>
+    </div>
+  </section>
+  
+  <section class="tema" id="tema2">
+    <div class="tema-contenido-imagen"> 
+    <img src="C:\Users\carme\OneDrive\Escritorio\UFV\FUNDAMENTOS DE LA INGENIERIA INFORMATICA\PUBLIC\Images\blockchain.jpeg.png" alt="Imagen del segundo tema(izquierda) - blockchain">
+    </div>
+    <div class="tema-contenido">
+      <p>Temario del segundo bloque</p>
+      <div class="tema2-contenido-texto">
+      <ul class="temas">
+        <li><span class="numero">Tema 1</span> Paradigmas actuales y tendencias de los sistemas y las aplicaciones.</li>
+        <li><span class="numero">Tema 2</span> Desarrollo de software: algo más que programación.</li>
+        <li><span class="numero">Tema 3</span> Estructura de los sistemas informáticos: hardware, software y redes.</li>
+        <li><span class="numero">Tema 4</span> Nuevos paradigmas y tendencias: computación en la nube, 
+          computación cuántica, computación cognitiva, blockchain, smart cities, IoT.</li>
+      </ul>
+    </div>
+    </div>
+    <div class="tema-contenido-imagen2">
+    <img src="C:\Users\carme\OneDrive\Escritorio\UFV\FUNDAMENTOS DE LA INGENIERIA INFORMATICA\PUBLIC\Images\computacion cuantica.png" alt="Imagen del segundo tema(derecha) - computación cuántica">
+    </div>
+  </section> 
+  
+  <section class="tema" id="tema3">
+    <div class="tema3-contenido-imagen3">
+    <img src="C:\Users\carme\OneDrive\Escritorio\UFV\FUNDAMENTOS DE LA INGENIERIA INFORMATICA\PUBLIC\Images\HTML.png" alt="Imagen del tercer tema(izquierda) - HTML5">
+    </div>
+    <div class="tema3-contenido">
+      <p>Temario del tercer bloque</p>
+      <div class="tema3-contenido-texto">
+      <ul class="temas">
+        <li><span class="numero">Tema 1</span> Introducción y manejo de repositorios de SW.</li>
+        <li><span class="numero">Tema 2</span> Creación de páginas Web HTML5: conceptos básicos, etiquetas, organización de la información y maquetación con CSS3.</li>
+        <li><span class="numero">Tema 3</span> Diseño y maquetación con CSS3: conceptos básicos, selectores, modelo de caja, posicionamiento de elementos.</li>
+      </ul>
+    </div>
+    </div>
+    <div class="tema3-contenido-imagen31">
+    <img src="C:\Users\carme\OneDrive\Escritorio\UFV\FUNDAMENTOS DE LA INGENIERIA INFORMATICA\PUBLIC\Images\CSS.png" alt="Imagen del tercer tema(derecha) - CSS3">
+    </div>
+  </section> 
+
+  <section class="container-mas-info">
+    <div class="texto-masinfo">
+      <a href="C:\Users\carme\OneDrive\Escritorio\UFV\FUNDAMENTOS DE LA INGENIERIA INFORMATICA\Página Web\PUBLIC\FII_P2_M5_Unidad_2_HTML (11_23).pdf">Más Info</a>
+    </div>
+  </section>
+  </main>
+
+  <section class="copyright">
+    <p>Copyright holder 2023
+      All rights reserved. No part of this publication can be reproduced, stored in a retrival system 
+      or transmitted in any form or by any means, electronic, mechanical or photocopying, recording or 
+      otherwise without the prior permission of the publisher.
+    </p>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var enlacesTemas = document.querySelectorAll(".dropdown a");
+
+      enlacesTemas.forEach(function (enlace) {
+        enlace.addEventListener("click", function (event) {
+           event.preventDefault();
+
+           var temas = document.querySelectorAll(".tema");
+           temas.forEach(function (tema) {
+              tema.style.display = "none";
+           });
+
+           var idTema = this.getAttribute("id").replace("enlace_", "");
+
+           var temaSeleccionado = document.getElementById(idTema);
+           temaSeleccionado.style.display = "block";
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
